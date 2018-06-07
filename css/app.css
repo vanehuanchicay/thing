@@ -1,0 +1,145 @@
+body{
+	margin-right: auto;
+	margin-left: auto;
+	background: #030624;
+
+}
+.ir-arriba {	
+	padding: 10px;
+	cursor:pointer;
+	position: fixed;
+	font-size: 40px;
+	color:#fff;
+	background:#526366;
+	border-radius: 80px;
+	bottom:20px;
+	right:20px;
+	z-index: 999999999;	
+}
+
+header { /*padre*/
+
+	overflow:hidden;
+	position: relative;
+	z-index: 2;
+	position: fixed;
+	background-color: #5c616646;
+	/*width: 90vw;*/
+	height: 17vh;
+	padding-left: 10vw;
+	/*margin-left: 5vw; */
+	padding-top: 3vh;	
+}
+
+.logo { /*hijo header*/
+	position: absolute;
+	color: white;
+	font-size: 55px;
+	font-family: 'Timmana', sans-serif;
+	
+
+}
+.title { /*hijo header*/
+	position: absolute;
+	color: white;
+	display:inline;
+	padding:4vh 3vh;
+}
+.redsocial{ /*hijo header*/
+	display: inline;
+	position: relative;
+	cursor: pointer;
+	color: white;
+	
+}
+
+.Home{ /* Padre*/
+	
+	background-color: #030624;
+    height: 100vh;
+   /* width:90vw;
+	margin-left: 5vw;
+	*/
+
+}
+.fondo{ /* hijo home*/
+
+}
+
+.cote{ /* hijo home*/
+	position: relative;
+	padding-top: 13vw;
+	z-index: 1;
+
+}
+/*.techo{ 
+	background: #666;
+  height: 200px;
+  width: 100vw;
+  margin-top: -10vh;
+  text-align: center;
+}*/
+.menu{ /* hijo home*/
+	
+}
+li {		
+	list-style: none;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	
+	display: inline;
+  	border: 1px solid #ffff;
+}
+a {
+
+	text-decoration: none;
+	color:gray;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #ffff;
+}
+
+span{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #ffff;
+}
+i{
+	font-size: 30px;
+	padding: 3%;
+	color: #fff;
+}
+
+
+
+#skill{ /*padre*/
+	background-color: #526366;
+	height: 100vh;
+	width: 90vw;
+	margin-left: 5vw;
+	color: #fff;
+}
+.skillimg{ /*Hijo skill*/
+	padding-top: 20vh;
+	margin-left:0;
+}
+.pskill{/*Hijo skill*/
+	margin-top: 30vh;
+	margin-left: 4vw;
+}
+
+#trabajos{
+	background-color: #ffff;
+	height: 100vh;
+	width: 90vw;
+	margin-left: 5vw;
+
+}
+
+footer{
+	background-color: #000;
+	height: 20vh;
+	width: 90vw;
+	margin-left: 5vw;
+
+}

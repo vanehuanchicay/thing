@@ -1,0 +1,36 @@
+.contenedor {
+  
+  padding-top: 30vh;
+
+}
+
+.blocks {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.block {
+  position: relative;
+  width: 33.3333333333%;
+  height: 325px;
+  max-height: 325px;
+  margin-right: 1em;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.block:hover .block__body {
+  position: absolute;
+  top: 0;
+  background: #000;
+  color: #fff;
+  height: 100%;
+  transition: top 0.5s;
+}
+.block:hover .block__body h3 {
+  color: #fff;
+}
+
+.block__body {
+  padding: 1em;
+  top:100%;
+}
